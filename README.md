@@ -1,4 +1,4 @@
-<p align="center"> <img src="logo.png" alt="mini.nvim" style="max-width:100%;border:solid 2px"/> </p>
+<p align="center"> <img src="https://github.com/nvim-mini/assets/blob/main/logo-2/logo-minimax_xmas-readme.png?raw=true" alt="MiniMax" style="max-width:100%;border:solid 2px"/> </p>
 
 ## Neovim with maximum MINI
 
