@@ -184,7 +184,7 @@ xmap_leader('gs', '<Cmd>lua MiniGit.show_at_cursor()<CR>', 'Show at selection')
 -- NOTE: most LSP mappings represent a more structured way of replacing built-in
 -- LSP mappings (like `:h gra` and others). This is needed because `gr` is mapped
 -- by an "replace" operator in 'mini.operators' (which is more commonly used).
-local formatting_cmd = '<Cmd>lua require("conform").format({lsp_fallback=true})<CR>'
+local formatting_cmd = '<Cmd>lua require("conform").format({lsp_format="fallback"})<CR>'
 
 nmap_leader('la', '<Cmd>lua vim.lsp.buf.code_action()<CR>',     'Actions')
 nmap_leader('ld', '<Cmd>lua vim.diagnostic.open_float()<CR>',   'Diagnostic popup')
